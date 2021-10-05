@@ -1,0 +1,33 @@
+{
+  "name": "inotify-remastered",
+  "version": "2.2.1",
+  "author": "Lazar Dilov <ldilov@yahoo.com>",
+  "email": "ldilov@yahoo.com",
+  "keywords": [
+    "inotify",
+    "watch",
+    "monitor",
+    "watch files",
+    "watch directories"
+  ],
+  "license": "MIT",
+  "description": "inotify bindings for the new v8 javascript engine",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ldilov/node-inotify"
+  },
+  "os": [
+    "linux"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "main": "inotify",
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "nan": "^2.14.0"
+  },
+  "scripts": {
+    "test": "node-gyp configure build"
+  }
+}
