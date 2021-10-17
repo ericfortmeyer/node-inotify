@@ -10,4 +10,4 @@ RUN apt update \
 WORKDIR /usr/src/inotify
 COPY . .
 
-RUN npm install node-gyp@8.2.0
+RUN npm install
