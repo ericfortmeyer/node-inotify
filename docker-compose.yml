@@ -2,5 +2,8 @@ version: '3'
 
 services:
   node:
+    volumes:
+      - ./Debug/:/usr/src/inotify/build/Debug
+      - ./Release/:/usr/src/inotify/build/Release
     build: .
-    command: npm run test
+    command: npm run build
