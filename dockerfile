@@ -6,6 +6,8 @@ WORKDIR /usr/src/inotify
 COPY . .
 
 RUN apt update \
-    && apt upgrade \
+    && apt upgrade -y \
     && apt install -y python \
-    && yarn add -D node-gyp
+    && apt install -y build-essential
+
+RUN npm install node-gyp@8.2.0
