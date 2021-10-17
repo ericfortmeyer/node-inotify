@@ -6,4 +6,4 @@ services:
       - ./Debug/:/usr/src/inotify/build/Debug
       - ./Release/:/usr/src/inotify/build/Release
     build: .
-    command: npm run build
+    command: npm run test

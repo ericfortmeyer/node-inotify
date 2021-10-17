@@ -31,6 +31,6 @@
     "node-gyp": "8.2.0"
   },
   "scripts": {
-    "build": "node-gyp configure build"
+    "test": "node-gyp configure build"
   }
 }
