@@ -28,6 +28,7 @@
     "nan": "^2.15.0"
   },
   "scripts": {
-    "test": "node-gyp configure build"
+    "test": "node-gyp configure build",
+    "ci:build_prod": "echo 'ci:build_prod in the inotify-remastered submodule is a noop'"
   }
 }
