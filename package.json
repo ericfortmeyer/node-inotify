@@ -1,8 +1,8 @@
 {
   "name": "inotify-remastered",
-  "version": "2.3.0",
-  "author": "Lazar Dilov <ldilov@yahoo.com>",
-  "email": "ldilov@yahoo.com",
+  "version": "2.4.0",
+  "author": "Eric Fortmeyer <e.fortmeyer01@gmail.com>",
+  "email": "e.fortmeyer01@gmail.com",
   "keywords": [
     "inotify",
     "watch",
@@ -14,7 +14,7 @@
   "description": "inotify bindings for the new v8 javascript engine",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ldilov/node-inotify"
+    "url": "http://github.com/ericfortmeyer/node-inotify"
   },
   "os": [
     "linux"
