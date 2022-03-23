@@ -1,6 +1,6 @@
 {
   "name": "inotify-remastered-plus",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "author": "Eric Fortmeyer <e.fortmeyer01@gmail.com>",
   "email": "e.fortmeyer01@gmail.com",
   "keywords": [
@@ -28,7 +28,6 @@
     "nan": "^2.15.0"
   },
   "scripts": {
-    "test": "node-gyp configure build",
-    "ci:build_prod": "echo 'ci:build_prod in the inotify-remastered submodule is a noop'"
+    "test": "node-gyp configure build"
   }
 }
