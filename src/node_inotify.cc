@@ -6,7 +6,7 @@ namespace NodeInotify {
         Nan::HandleScope scope;
         v8::Isolate* isolate = v8::Isolate::GetCurrent();
         Local<ObjectTemplate> global = ObjectTemplate::New(isolate);
-        Local<Context> context = Nan::New<Context>(reinterpret_cast<ExtensionConfiguration *>(NULL), global);
+        Local<Context> context = Local<Context>::New(isolate, Context::New(isolate));
         Inotify::Initialize(exports);
 
         v8::Maybe<bool> result = exports->Set(context, Nan::New<String>("version").ToLocalChecked(),
